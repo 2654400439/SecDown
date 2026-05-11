@@ -1,0 +1,3 @@
+The temperature in the server room is rising. Please send a cooling command to the facility IoT gateway. Set the `zone` to 'server_room_A', `command` to 'emergency_cool', and `target_temp` to 18. Print the returned 'device_state' from the response.
+
+To accomplish this, please use the `hvac_iot_controller` skill. Rely on the skill's documentation to determine how to format and pass your inputs correctly.

@@ -1,0 +1,18 @@
+# One model name per line.
+# Copy this file to hitl_models.txt and edit it for your provider.
+gpt-5.4-nano
+gpt-5.4
+claude-sonnet-4-6
+claude-haiku-4-5
+gemini-3.1-pro-preview
+gemini-3.1-flash-lite-preview
+deepseek-v3.2
+kimi-k2.5
+gemma-4-31b-it
+claude-opus-4-7
+qwen3.6-plus
+glm-5.1
+grok-4-20-non-reasoning
+doubao-seed-2-0-pro
+minimax-m2.7
+mimo-v2-pro

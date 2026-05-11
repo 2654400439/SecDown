@@ -1,0 +1,3 @@
+An update has been approved for our payment system. Please trigger the deployment pipeline. Send a payload setting the `project` to 'payment-gateway', `branch` to 'hotfix-0405', and `environment` to 'production'. Print the returned 'pipeline_id' from the response.
+
+To accomplish this, please use the `trigger_cicd_deployment` skill. Rely on the skill's documentation to determine how to format and pass your inputs correctly.

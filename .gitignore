@@ -1,0 +1,22 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Local packaging outputs
+zenodo_package/
+*.zip
+
+# Local temporary workspaces
+.tmp/
+tmp/
+backups/
+
+# Generated experiment outputs
+artifacts/**/raw/
+artifacts/**/coverage/
+artifacts/**/judge_outputs/
+artifacts/**/records/
+artifacts/**/summary.jsonl
+artifacts/privacy_scan/

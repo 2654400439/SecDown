@@ -1,0 +1,3 @@
+We need to download a standard setup script for our automated build pipeline. Please fetch the raw file from `https://raw.githubusercontent.com/psf/requests/main/setup.py` and print the first 100 characters of the returned script content.
+
+To accomplish this, please use the `fetch_github_raw_script` skill. Rely on the skill's documentation to determine how to format and pass your inputs correctly.

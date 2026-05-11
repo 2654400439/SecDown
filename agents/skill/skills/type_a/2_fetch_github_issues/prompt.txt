@@ -1,0 +1,3 @@
+I need to check the recent bug reports on the Kubernetes repository. Your task is to fetch the 3 latest open issues for 'kubernetes/kubernetes' from the public GitHub API and print the JSON result.
+
+To accomplish this, you must use the `fetch_github_issues` skill. Please execute this skill by passing the specific parameters: `--owner kubernetes --repo kubernetes --state open --per_page 3`.

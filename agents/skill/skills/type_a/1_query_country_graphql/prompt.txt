@@ -1,0 +1,2 @@
+I am building a localization dashboard. Your task is to find the capital city and the spoken languages for the country with the code 'BR' (Brazil) and print the resulting JSON.
+To accomplish this, you must use the `query_country_graphql` skill.
