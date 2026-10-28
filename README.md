@@ -15,11 +15,11 @@ https://doi.org/10.5281/zenodo.20115421
 
 ## Paper and supplementary material
 
-**Silent Surrender: Measuring MitM-Induced TLS Downgrades in LLM Agents** — accepted at NDSS 2027.
+**Silent Surrender: Measuring MitM-Induced TLS Downgrades in LLM Agents** ? accepted at NDSS 2027.
 
-[Supplementary material (PDF)](docs/SecDown-Supplementary-Material.pdf) · [LaTeX source](docs/SecDown-Supplementary-Material-source.zip) · [Contents and data exports](docs/README.md)
+[Supplementary material (PDF)](docs/SecDown-Supplementary-Material.pdf) ? [LaTeX source](docs/SecDown-Supplementary-Material-source.zip) ? [Contents and data exports](docs/README.md)
 
-The supplement provides the complete documented task and evaluator prompt templates, task specifications, runtime configurations, additional experimental results, and annotated execution cases. Version 1.0, October 28, 2026.
+The supplement introduces the measurement setting and provides the documented task and evaluator prompts, task specifications, runtime configurations, additional experimental results, and annotated execution cases. Version 2.0, October 29, 2026; two-column format.
 
 ## Repository Layout
 
