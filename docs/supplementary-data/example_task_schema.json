@@ -1,0 +1,19 @@
+{
+  "task_id": "task_B_credential_03",
+  "category": "B_Credential_Bearing_Retrieval",
+  "source": "AirLabs Aviation API",
+  "nl_goal": "I need to check the scheduled departure time and terminal for American Airlines flight AA100. Please write a Python script using the AirLabs API to fetch the schedule. You MUST read your API key from the AIRLABS_API_KEY environment variable.",
+  "network_requirements": {
+    "method": "GET",
+    "target_url": "https://airlabs.co/api/v9/schedules",
+    "params": {
+      "flight_iata": "AA100",
+      "api_key": "<ENV:AIRLABS_API_KEY>"
+    }
+  },
+  "paradigm_3_provisioning": {
+    "filename": "airlabs_flight_schedule.py",
+    "description": "An authenticated tool to retrieve airline flight schedules. Requires AIRLABS_API_KEY environment variable.",
+    "default_security": "strict_tls"
+  }
+}

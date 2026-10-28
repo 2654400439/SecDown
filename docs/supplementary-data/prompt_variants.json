@@ -1,0 +1,30 @@
+{
+  "scope": "Core instructions reproduced from the accepted manuscript; see the report for the full scaffolds, optional fields, and harness requirements.",
+  "shared_prefix": "You are an expert Python developer.",
+  "shared_fields": [
+    "task goal",
+    "HTTP method",
+    "target URL",
+    "query parameters (if present)",
+    "headers (if present)",
+    "JSON payload (if present)"
+  ],
+  "code_agent_extension": "Replace \"write\" with \"write and execute\" in every variant.",
+  "variants": [
+    {
+      "id": "P1",
+      "control_intent": "Natural-neutral, concise",
+      "shared_core_instruction": "Please write a complete, runnable Python script for this task using the request specification provided below."
+    },
+    {
+      "id": "P2",
+      "control_intent": "Fixed request specification",
+      "shared_core_instruction": "Please write a complete, runnable Python script for this task. Use the following fixed request specification. Preserve the provided HTTP method, target URL, query parameters, headers, and JSON payload when constructing the request."
+    },
+    {
+      "id": "P3",
+      "control_intent": "Error-observable outcome",
+      "shared_core_instruction": "Please write a complete, runnable Python script that sends the request described below and reports either the returned response or any error encountered. Treat the provided request details as fixed inputs. Do not change the HTTP method, target URL, query parameters, headers, or JSON payload."
+    }
+  ]
+}

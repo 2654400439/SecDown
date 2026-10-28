@@ -1,6 +1,6 @@
 # SecDown Artifact
 
-This repository contains the anonymized artifact code for:
+This repository contains the artifact code for:
 
 **Silent Surrender: Measuring MitM-Induced TLS Downgrades in LLM Agents**
 
@@ -13,6 +13,14 @@ https://zenodo.org/records/20115421
 https://doi.org/10.5281/zenodo.20115421
 ```
 
+## Paper and supplementary material
+
+**Silent Surrender: Measuring MitM-Induced TLS Downgrades in LLM Agents** — accepted at NDSS 2027.
+
+[Supplementary material (PDF)](docs/SecDown-Supplementary-Material.pdf) · [LaTeX source](docs/SecDown-Supplementary-Material-source.zip) · [Contents and data exports](docs/README.md)
+
+The supplement provides the complete documented task and evaluator prompt templates, task specifications, runtime configurations, additional experimental results, and annotated execution cases. Version 1.0, October 28, 2026.
+
 ## Repository Layout
 
 ```text
@@ -24,6 +32,7 @@ analysis/
   rq3/         Observer and environmental-attribution judges for RQ3.
   ecosystem/   OpenClaw skill ecosystem audit script.
 artifacts/    Output placeholders and result-layout documentation.
+docs/         Supplementary report, LaTeX source, and readable data exports.
 configs/      Example model lists.
 mitigations/  L1/L2/L3 mitigation documentation and runner integration notes.
 mitm_server/  TLS-friction and MitM test server implementation.

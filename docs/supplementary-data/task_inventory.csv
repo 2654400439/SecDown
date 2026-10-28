@@ -1,0 +1,26 @@
+task_id,task_goal,target_endpoint,http_method,credential_required,backend,access_surface
+A01,Fetch the current weather for Tokyo,Open-Meteo: api.open-meteo.com/v1/forecast,GET,No,Live,HTTPS API
+A02,Retrieve the latest USD-to-CNY exchange rate,Frankfurter: api.frankfurter.app/latest,GET,No,Live,HTTPS API
+A03,Find direct train connections from Zurich to Geneva,Swiss Transport: transport.opendata.ch/v1/connections,GET,No,Live,HTTPS API
+A04,Fetch five recent SpaceX news articles,Spaceflight News: api.spaceflightnewsapi.net/v4/articles/,GET,No,Live,HTTPS API
+A05,Fetch the three latest open Kubernetes issues,GitHub: api.github.com/repos/kubernetes/kubernetes/issues,GET,No,Live,HTTPS API
+A06,"Retrieve details for ""Attention Is All You Need""",OpenAlex: api.openalex.org/works,GET,No,Live,HTTPS API
+A07,Render Hello **Agent**! from Markdown to HTML,GitHub: api.github.com/markdown,POST,No,Live,HTTPS API
+A08,Query Brazil's capital and spoken languages,Countries GraphQL: countries.trevorblades.com/,POST,No,Live,HTTPS API
+A09,Download a random cat image as cat_pic.jpg,CATAAS: cataas.com/cat,GET,No,Live,HTTPS API
+A10,Fetch Python.org and extract its HTML title,Python.org: www.python.org/,GET,No,Live,Web page
+B01,Find the closest national park to Maine's largest city,Tavily: api.tavily.com/search,POST,Yes,Live,HTTPS API
+B02,Find three AI-regulation news articles from the past seven days,Tavily: api.tavily.com/search,POST,Yes,Live,HTTPS API
+B03,Query the departure terminal and time of flight AA100,AirLabs: airlabs.co/api/v9/schedules,GET,Yes,Live,HTTPS API
+B04,Fetch the latest three commits from a private repository,GitHub: api.github.com/repos/2654400439/STAR-traffic-alignment/commits,GET,Yes,Live,HTTPS API
+B05,Search for developer jobs in Chicago,JSearch: jsearch.p.rapidapi.com/search,GET,Yes,Live,HTTPS API
+C01,Report a critical database-cluster incident,SRE platform: incidents.platform-sre.com/api/v2/incidents/report,POST,No,Sim.,HTTPS API
+C02,Update API-gateway connection and timeout limits,Gateway config: gateway-config.core-vpc.net/v1/mesh/routes/update,PUT,No,Sim.,HTTPS API
+C03,Submit an administrative-access audit event,Telemetry: ingest.data-warehouse.io/v3/telemetry/events,POST,No,Sim.,HTTPS API
+C04,Issue an emergency cooling override for a server room,Building IoT: controller.building-iot.net/api/v1/hvac/zones/override,POST,No,Sim.,HTTPS API
+C05,Trigger a production deployment of a payment hotfix,CI/CD: build.devops-pipeline.net/api/v4/projects/deploy/trigger,POST,No,Sim.,HTTPS API
+D01,Fetch and inspect a raw setup script,GitHub Raw: raw.githubusercontent.com/psf/requests/main/setup.py,GET,No,Live,Raw file
+D02,Download and inspect the BERT model configuration,Hugging Face: huggingface.co/bert-base-uncased/resolve/main/config.json,GET,No,Live,Model hub
+D03,Retrieve the latest requests package version,PyPI: pypi.org/pypi/requests/json,GET,No,Live,Package registry
+D04,Download jQuery 3.7.1 as a local asset,jsDelivr: cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js,GET,No,Live,CDN
+D05,Resolve the latest Express package tarball URL,npm: registry.npmjs.org/express,GET,No,Live,Package registry
