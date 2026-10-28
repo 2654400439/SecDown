@@ -11,7 +11,7 @@ Accepted at NDSS 2027.
 - [Prompt-variant core instructions (JSON)](supplementary-data/prompt_variants.json)
 - [Conference paper DOI](https://doi.org/10.14722/ndss.2027.230944)
 
-Supplement version: **2.0 ? October 29, 2026**. Two-column format, 18 pages.
+Supplement version: **2.0 - October 29, 2026**. Two-column format, 18 pages.
 
 The report introduces the measurement setting before presenting the detailed material documented in the accepted revised manuscript. It includes definitions and reading guidance so the supporting experiments can be understood without first reading the full conference paper.
 
@@ -22,7 +22,7 @@ The report introduces the measurement setting before presenting the detailed mat
 | S3 | Agent paradigms, execution budgets, framework versions, and the 16-model snapshot ledger |
 | S4 | Task scaffolds, evaluation metrics and denominators, human validation, and the automated evaluator prompt |
 | S5 | TLS bypass controls, four failure profiles, client error signatures, and selective-targeting measurements |
-| S6 | Task-set-size sensitivity, P1?P3 prompt variants, and complete per-model prompt results |
+| S6 | Task-set-size sensitivity, P1-P3 prompt variants, and complete per-model prompt results |
 | S7 | Matched coding-harness comparison and post-error continuation analysis |
 | S8 | Browser implementations, matched results, recovery mechanisms, and HSTS analysis |
 | S9 | Commercial web-agent setup, observations, and measurement limits |
